@@ -1,0 +1,3 @@
+temp_arr = [1,2,3]
+for num in temp_arr:
+  print(temp_arr)
