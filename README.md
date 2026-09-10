@@ -16,10 +16,10 @@ An AI code reviewer bot that provides feedback to pull request made for a reposi
 - Python (Code in Lambda function)
 
 ## Project Structure
-- lambda_function.py - Main file, receives webhook event and processes it
-- helper.py - Helper file, stores vital functions to help with verification, processing the git diff and post feedback to Github
-- bedrock.py - Asks the prompt to the AWS Bedrock model (can be configured), holds the style guide and instructions (which can also be configured)
-- dynamodb.py - Stores function to log the results of AI feedback. Note that each model has different response structures, requiring changes here 
+- lambda_function.py   - Main file, receives webhook event and processes it
+- helper.py            - Helper file, stores vital functions to help with verification, processing the git diff and post feedback to Github
+- bedrock.py           - Asks the prompt to the AWS Bedrock model (can be configured), holds the style guide and instructions (which can also be configured)
+- dynamodb.py          - Stores function to log the results of AI feedback. Note that each model has different response structures, requiring changes here 
 
 ## Setup
 
