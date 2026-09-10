@@ -1,1 +1,4 @@
-test_variable = 1
+TEST_VARIABLE1 = 1
+TEST_VARIABLE2 = 2
+
+print(TEST_VARIABLE1)
