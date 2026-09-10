@@ -34,3 +34,8 @@ An AI code reviewer bot that provides feedback to pull request made for a reposi
   - Allow DynamoDB: PutItem, Query
 - On AWS Lambda, paste the .py files and deploy
   - Make sure the names of the your DynamoDB table and SSM Parameters are reflected in the .py files (line 5 in dynamodb.py and line 11 + 31 in lambda_function.py)
+
+## Result
+Once you deploy the AWS Lambda function, go create a separate branch and make a pull request to the main branch. I used the test.py file just to test out this functionality. An example of the AI feedback should look like the following:
+<img width="786" height="684" alt="image" src="https://github.com/user-attachments/assets/e3d63fc7-e10f-413f-aedf-1e0dedbb5546" />
+
